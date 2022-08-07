@@ -6,7 +6,9 @@
     <title>Верстка современного сайта</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -17,10 +19,11 @@
             <div class="wrapper">
                 <div class="offer">
                     <h1 class="title">
-                        С помощью верстки я создам ту жизнь, о которой <span>мечтаю!</span>
+                        С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span>
                     </h1>
                     <p class="intro">
-                        Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
+                        Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на
+                        100%. Меня не остановить!
                     </p>
                     <a href="#" class="btn">Двигаться к мечте!</a>
                 </div>
@@ -31,16 +34,39 @@
     <section id="forward" class="forward">
         <div class="container">
             <h2 class="section-title">Что меня ждет впереди</h2>
+            <div class="features">
+                <div class="feature feature-free-time">
+                    <h3 class="feature-title">Свободное время</h3>
+                    <p class="feature-text">Мне нужно свободное время на семью и самое настоящее</p>
+                </div>
+                <div class="feature">
+                    <h3 class="feature-title">Яркие путешествия</h3>
+                    <p class="feature-text">Работать откуда угодно - что может быть лучше?</p>
+                </div>
+
+                <div class="feature feature-value">
+                    <h3 class="feature-title">Создание ценности</h3>
+                    <p class="feature-text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+                </div>
+            </div>
         </div>
     </section>
     <section id="mail" class="mail">
         <div class="container">
             <h2 class="section-title">Форма заказа билета в будущее</h2>
+            <form action="#" class="form">
+                <input type="text" name="name" id="name"class="input" placeholder="Имя" required>
+                <input type="email" name="email" id="email" class="input" placeholder="E-mail" required>
+                <input type="tel" name="phone" id="phone" class="phone" placeholder="Телефон">
+                <input type="text" class="input" id="flyto" name="flyto" placeholder="Куда я полечу в ближайшее время?" required>
+                <button type="submit" class="btn submit">Двигаться к мечте!</button>
+
+            </form>
         </div>
     </section>
     <footer id="footer" class="footer">
         <div class="container">
-            © Все мои мечты защищены моим трудолюбием
+            <p class="credits">© Все мои мечты защищены моим трудолюбием</p>
     </footer>
 </body>
 
