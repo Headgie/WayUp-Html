@@ -1,0 +1,103 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+.header {
+    padding-top: 62px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e3f6fc+0,378fd9+100 */
+    background: #4ebffe; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #4ebffe 0%, #378fd9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #4ebffe 0%,#378fd9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #4ebffe 0%,#378fd9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3f6fc', endColorstr='#378fd9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #fff;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.offer {
+    margin-top: 140px;
+    width: 575px;
+}
+.wrapper>img{
+    margin-left: -60px;
+}
+.title {
+
+    font-size: 37px;
+    line-height: 49px;
+}
+.title span {
+    font-size: 59px;
+    line-height: 73px;;
+}
+.intro {
+    margin-bottom: 45px;
+    width: 405px;
+}
+.btn {
+   
+    background-color: #ffd429;
+    color: #000;
+    padding: 20px 0px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    width: 222px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #ffc15d;
+
+}
+
+.mail {
+    background-color: #ecf3f8;
+}
+
+.footer {
+    background-color: #164d7a;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.section-title {
+    font-size: 30px;
+   
+}
+
+.forward {
+    padding-top: 110px;
+}
