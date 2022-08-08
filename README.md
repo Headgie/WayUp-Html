@@ -6,4 +6,4 @@
 
 Адаптивная версия сайта:
 
-[https://headgie.github.io/WayUp-Html/](https://headgie.github.io/WayUp-Html/)
+[https://headgie.github.io/WayUp-Html/lesson-4-hw/](https://headgie.github.io/WayUp-Html/lesson-4-hw/)
