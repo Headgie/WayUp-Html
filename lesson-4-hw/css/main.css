@@ -64,10 +64,10 @@ p {
 .wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .offer {
-    margin-top: 130px;
     width: 575px;
 }
 
@@ -136,16 +136,16 @@ p {
     background: url("../img/icons8-beach-96.png") no-repeat top center;
     text-align: center;
     padding-top: 94px;
-    width: 300px;
+    width: 289px;
 }
 .feature-free-time {
     background: url("../img/icons8-time-machine-96.png") no-repeat top center;
-    width: 295px;
+    width: 289px;
 }
 
 .feature-value {
     background: url("../img/icons8-launch-96.png") no-repeat top center;
-    width: 305px;
+    width: 289px;
 }
 
 .feature-title {
